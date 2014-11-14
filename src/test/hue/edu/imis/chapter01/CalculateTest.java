@@ -14,6 +14,8 @@ public class CalculateTest {
     @Before
     public void init(){
         calculate=new Calculate();
+        new Calculate();
+
     }
 
     @Test
